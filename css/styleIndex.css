@@ -1,0 +1,28 @@
+@import url('../plugins/bootstrap/css/bootstrap.css');
+@import url('../plugins/node-waves/waves.js');
+@import url('../plugins/animate-css/animate.css');
+@import url('themes/all-themes.css');
+@import url('style.css');
+
+.navbar .navbar-brand {
+    position: relative;
+    bottom: 8px;
+}
+.navbar .navbar-brand p {
+    margin-top: -1px;
+}
+html,
+body,
+.view {
+    height: 85%;
+}
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
