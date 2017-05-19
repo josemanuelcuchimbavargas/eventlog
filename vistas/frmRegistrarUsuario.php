@@ -55,7 +55,7 @@
                                 <label for="checkTerminosUsos">He leído acepto <a href="javascript:void(0);">Terminos y Usos</a>.</label>
                             </div>
                             <div class="col-xs-12">
-                                <button class="btn btn-block bg-pink waves-effect" type="submit"><h5>Registrarse</h5></button>
+                                <button class="btn btn-block bg-pink waves-effect" type="submit" id="btnRegistro"><h5>Registrarse</h5></button>
                             </div>                        
                         </div>
                         <div class="m-t-25 m-b--5 align-center">
@@ -71,6 +71,7 @@
         <script type="text/javascript" src="../plugins/jquery-validation/jquery.validate.js"></script>
         <script type="text/javascript" src="../js/admin.js"></script>
         <script type="text/javascript" src="../js/pages/examples/sign-up.js"></script>
+        <script type="text/javascript" src="../js/controles/registro.js"></script>
     </body>
 </html>
 
